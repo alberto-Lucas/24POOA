@@ -1,0 +1,10 @@
+C:\GitHub\24POOB\PessoaPOO\bin\Debug\PessoaPOO.exe.config
+C:\GitHub\24POOB\PessoaPOO\bin\Debug\PessoaPOO.exe
+C:\GitHub\24POOB\PessoaPOO\bin\Debug\PessoaPOO.pdb
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.csproj.AssemblyReference.cache
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.Form1.resources
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.Properties.Resources.resources
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.csproj.GenerateResource.cache
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.csproj.CoreCompileInputs.cache
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.exe
+C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.pdb
