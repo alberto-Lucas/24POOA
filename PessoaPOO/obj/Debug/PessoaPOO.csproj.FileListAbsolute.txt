@@ -1,10 +1,39 @@
-C:\GitHub\24POOB\PessoaPOO\bin\Debug\PessoaPOO.exe.config
-C:\GitHub\24POOB\PessoaPOO\bin\Debug\PessoaPOO.exe
-C:\GitHub\24POOB\PessoaPOO\bin\Debug\PessoaPOO.pdb
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.csproj.AssemblyReference.cache
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.Form1.resources
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.Properties.Resources.resources
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.csproj.GenerateResource.cache
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.csproj.CoreCompileInputs.cache
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.exe
-C:\GitHub\24POOB\PessoaPOO\obj\Debug\PessoaPOO.pdb
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.csproj.AssemblyReference.cache
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.Form1.resources
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.Properties.Resources.resources
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.csproj.GenerateResource.cache
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\PessoaPOO\bin\Debug\PessoaPOO.exe
+C:\Users\Lucas\source\repos\PessoaPOO\bin\Debug\PessoaPOO.pdb
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.exe
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.pdb
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.frmPrincipal.resources
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.frmCadPessoa.resources
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.frmExibePessoa.resources
+C:\Users\Lucas\source\repos\PessoaPOO\obj\Debug\PessoaPOO.frmPessoaPOOModificado.resources
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.csproj.AssemblyReference.cache
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.Form1.resources
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.frmPrincipal.resources
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.Properties.Resources.resources
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.csproj.GenerateResource.cache
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.csproj.CoreCompileInputs.cache
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.exe
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.pdb
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\bin\Debug\PessoaPOO.exe
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\bin\Debug\PessoaPOO.pdb
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.frmCadUsuario.resources
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.frmExibeUsuario.resources
+G:\Outros computadores\Meu laptop\UNIFAFIBE\SISTEMAS\H2\Programação Orientada a Objeto\Arquivos\PessoaPOO\obj\Debug\PessoaPOO.frmUsuarioPOOModificado.resources
+C:\GitHub\24POOA\PessoaPOO\bin\Debug\PessoaPOO.exe
+C:\GitHub\24POOA\PessoaPOO\bin\Debug\PessoaPOO.pdb
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.csproj.AssemblyReference.cache
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.Form1.resources
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.frmCadUsuario.resources
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.frmExibeUsuario.resources
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.frmUsuarioPOOModificado.resources
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.frmPrincipal.resources
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.Properties.Resources.resources
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.csproj.GenerateResource.cache
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.csproj.CoreCompileInputs.cache
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.exe
+C:\GitHub\24POOA\PessoaPOO\obj\Debug\PessoaPOO.pdb

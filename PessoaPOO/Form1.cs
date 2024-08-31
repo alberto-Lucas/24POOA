@@ -1,21 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PessoaPOO
 {
     public partial class Form1 : Form
     {
-        //Criar uma instancia global
-        //para acessar a classe de
-        //manipulção
-        UsuarioExecucao usuarioExecucao =
+        private UsuarioExecucao usuarioExecucao =
             new UsuarioExecucao();
         public Form1()
         {
@@ -24,92 +14,81 @@ namespace PessoaPOO
 
         private void AdicionarUsuario()
         {
-            //Variaveis auxiliares para cada
-            //campo
             string cpf, nome, email, senha;
             DateTime dtNascimento;
 
-            //Iremos popular as variaveis
-            //de acordo as informações
-            //inseridas pelo usuario final
             nome = txtNome.Text;
             cpf = txtCPF.Text;
+            dtNascimento = dtpDtNascimento.Value;
             email = txtEmail.Text;
             senha = txtSenha.Text;
-            dtNascimento = dtpDtNascimento.Value;
 
-            //Validação simples
-            //apenas de exemplo
+            //Validação
+            if(!string.IsNullOrEmpty(cpf) &&
+                !string.IsNullOrEmpty(nome))
+            {
+                Usuario usuario = new Usuario();
+                Pessoa pessoa = new Pessoa();
 
-            if (string.IsNullOrEmpty(cpf) &&
-                string.IsNullOrEmpty(nome))
-                return; //aborta a execução
+                pessoa.Nome = nome;
+                pessoa.CPF = cpf;
+                pessoa.DtNascimento = dtNascimento;
 
-            //Criamos a instancia das classes
-            Usuario usuario = new Usuario();
-            Pessoa  pessoa = new Pessoa();
+                //Atribuo os valores do Objeto Pessoa
+                //Ao objeto Usuario
+                usuario.Pessoa = pessoa;
+                usuario.Email = email;
+                usuario.Senha = senha;
 
-            //Popular o objeto pessoa
-            pessoa.Nome = nome;
-            pessoa.CPF = cpf;
-            pessoa.DtNascimento = dtNascimento;
+                usuarioExecucao.Adicionar(usuario);
 
-            //Popular objeto usuario
-            usuario.Email = email;
-            usuario.Senha = senha;
-            usuario.Pessoa = pessoa;
+                AtualizarListaUsuarios();
 
-            //Aqui finalizar a atribuição de valores
-            //Agora precisamos manipular os registro
-            usuarioExecucao.Adicionar(usuario);
-            //Nesse momento o objeto usuario
-            //ja foi adicionado a lista]
-
-            //Atualizar a listBox para exibir
-            //os registros
-            AtualizarListaUsuarios();
-
-            //Após inserir os dados
-            //Vamos limpar os campos
-            txtCPF.Clear();
-            txtNome.Clear();
-            txtEmail.Clear();
-            txtSenha.Clear();
-            dtpDtNascimento.Value = DateTime.Now;
+                txtCPF.Clear();
+                txtNome.Clear();
+                dtpDtNascimento.Value = DateTime.Now;
+                txtEmail.Clear();
+                txtSenha.Clear();
+            }
         }
 
-        //Método atualizar o LisBox
-        private void AtualizarListaUsuarios()
-        {
-            //Limpar o listBox
-            lsbUsuarios.DataSource = null;
-            //Vou popular a ListBox com a 
-            //listaUsuarios
-            lsbUsuarios.DataSource =
-                usuarioExecucao.ListarUsuarios();
-
-            //Definir qual informação será exibida
-            lsbUsuarios.DisplayMember =  "NomeEmail";
-        }
-
-        //Método para remover um registro da lista
         private void RemoverUsuario()
         {
-            //Primeiro identificar o registro
-            //selecionado na listBox
             Usuario usuarioSelecionado =
                 lsbUsuarios.SelectedItem as Usuario;
 
-            //Após coletor o objeto
-            //Preciso validar se está null
+            if(usuarioExecucao != null)
+            {
+                usuarioExecucao.Remover(usuarioSelecionado);
+                AtualizarListaUsuarios();
+            }
+        }
+
+        private void AtualizarListaUsuarios()
+        {
+            lsbUsuarios.DataSource = null;
+            lsbUsuarios.DataSource = 
+                usuarioExecucao.ListarUsuarios();
+            //Proriedade NomeEmail do objeto Usuario
+            lsbUsuarios.DisplayMember = "NomeEmail";
+        }
+
+        private void ExibirUsuario()
+        {
+            Usuario usuarioSelecionado =
+                lsbUsuarios.SelectedItem as Usuario;
+
             if(usuarioSelecionado != null)
             {
-                //Se for diferente de nullo
-                //posso remove-lo
-                usuarioExecucao.
-                    Remover(usuarioSelecionado);
-
-                AtualizarListaUsuarios();
+                txtExibeCPF.Text = usuarioSelecionado.Pessoa.CPF;
+                txtExibeNome.Text = usuarioSelecionado.Pessoa.Nome;
+                txtExibeDtNascimento.Text =
+                    usuarioSelecionado.Pessoa.
+                        DtNascimento.ToShortDateString();
+                txtExibeIdade.Text = usuarioSelecionado.Pessoa.
+                                        Idade.ToString();
+                txtExibeEmail.Text = usuarioSelecionado.Email;
+                txtExibeSenha.Text = usuarioSelecionado.Senha;
             }
         }
 
@@ -123,36 +102,9 @@ namespace PessoaPOO
             RemoverUsuario();
         }
 
-        //Método para exibir os detalhes 
-        //do registro selecionado
-        private void ExibirUsuario()
-        {
-            Usuario usuarioSelecionado =
-                lsbUsuarios.SelectedItem as Usuario;
-
-            if(usuarioSelecionado != null)
-            {
-                txtVisCPF.Text =
-                    usuarioSelecionado.Pessoa.CPF;
-                txtVisNome.Text =
-                    usuarioSelecionado.Pessoa.Nome;
-                txtVisDtNascimento.Text =
-                    usuarioSelecionado.Pessoa.
-                        DtNascimento.ToShortDateString();
-                txtVisIdade.Text =
-                    usuarioSelecionado.Pessoa.
-                        Idade.ToString();
-                txtVisEmail.Text =
-                    usuarioSelecionado.Email;
-                txtVisSenha.Text =
-                    usuarioSelecionado.Senha;
-
-            }
-        }
-
         private void lsbUsuarios_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            ExibirUsuario();    
+            ExibirUsuario();
         }
     }
 }

@@ -1,20 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PessoaPOO
 {
-    //Primeiro passo é deixa a classe Publicc
     public class Pessoa
     {
-        //Definir os atributos
+        //prop e apertar TAB duas vezes
         public string Nome { get; set; }
-        public string CPF { get; set; }
         public DateTime DtNascimento { get; set; }
+        public string CPF { get; set; }
 
-        public string CPFNome 
+        //Propriedades somente leitura
+
+        public string CPFNome
         {
             get
             {
@@ -22,19 +19,18 @@ namespace PessoaPOO
             }
         }
 
-        //Atributo para retornar a Idade
         public int Idade
         {
             get
             {
-                //Recuperar a data atual
-                DateTime dtAtual = DateTime.Now;
-                int idade =
-                    dtAtual.Year - DtNascimento.Year;
+                //Now usado para retornar
+                //Data e Hora atual do computador
+                DateTime dataAtual = DateTime.Now;
+                int idade = dataAtual.Year - DtNascimento.Year;
 
-                if(dtAtual.Month < DtNascimento.Month ||
-                    (dtAtual.Month == DtNascimento.Month &&
-                    dtAtual.Day < DtNascimento.Day))
+                if(dataAtual.Month < DtNascimento.Month ||
+                    (dataAtual.Month == DtNascimento.Month  &&
+                    dataAtual.Day < DtNascimento.Day))
                 {
                     idade--;
                 }
