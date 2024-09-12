@@ -1,0 +1,11 @@
+C:\GitHub\24POOA\BrinquedoPOO\bin\Debug\BrinquedoPOO.exe.config
+C:\GitHub\24POOA\BrinquedoPOO\bin\Debug\BrinquedoPOO.exe
+C:\GitHub\24POOA\BrinquedoPOO\bin\Debug\BrinquedoPOO.pdb
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.csproj.AssemblyReference.cache
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.Form1.resources
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.frmCadBrinquedo.resources
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.Properties.Resources.resources
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.csproj.GenerateResource.cache
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.csproj.CoreCompileInputs.cache
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.exe
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.pdb
