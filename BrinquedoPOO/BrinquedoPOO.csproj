@@ -75,6 +75,9 @@
     <EmbeddedResource Include="frmCadBrinquedo.resx">
       <DependentUpon>frmCadBrinquedo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmVisBrinquedo.resx">
+      <DependentUpon>frmVisBrinquedo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

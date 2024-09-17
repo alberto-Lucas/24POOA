@@ -9,3 +9,4 @@ C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.csproj.GenerateResource.cac
 C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.csproj.CoreCompileInputs.cache
 C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.exe
 C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.pdb
+C:\GitHub\24POOA\BrinquedoPOO\obj\Debug\BrinquedoPOO.frmVisBrinquedo.resources

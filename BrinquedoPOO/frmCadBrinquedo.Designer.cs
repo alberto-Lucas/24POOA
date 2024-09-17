@@ -188,6 +188,7 @@
             this.btnVisualizar.TabIndex = 16;
             this.btnVisualizar.Text = "Visualizar";
             this.btnVisualizar.UseVisualStyleBackColor = true;
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
             // lstBrinquedos
             // 

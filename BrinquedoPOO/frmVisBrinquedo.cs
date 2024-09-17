@@ -12,9 +12,21 @@ namespace BrinquedoPOO
 {
     public partial class frmVisBrinquedo : Form
     {
-        public frmVisBrinquedo()
+        public frmVisBrinquedo(Brinquedo brinquedo)
         {
             InitializeComponent();
+            txtCodBarras.Text = 
+                brinquedo.Produto.CodBarras;
+            txtDesc.Text = 
+                brinquedo.Produto.Descricao;
+            txtPreco.Text =
+                brinquedo.Produto.Preco.ToString();
+            txtCategoria.Text =
+                brinquedo.Categoria;
+            txtIdadeMin.Text =
+                brinquedo.IdadeMin.ToString();
+            txtFabricante.Text =
+                brinquedo.Produto.Fabricante.CNPJNome;
         }
     }
 }

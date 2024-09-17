@@ -79,5 +79,17 @@ namespace BrinquedoPOO
                 AtualizarLista();
             }
         }
+
+        private void btnVisualizar_Click(object sender, EventArgs e)
+        {
+            Brinquedo brinquedoSelecionado =
+                lstBrinquedos.SelectedItem 
+                    as Brinquedo;
+
+            frmVisBrinquedo frm =
+                new 
+                frmVisBrinquedo(brinquedoSelecionado);
+            frm.ShowDialog();
+        }
     }
 }
