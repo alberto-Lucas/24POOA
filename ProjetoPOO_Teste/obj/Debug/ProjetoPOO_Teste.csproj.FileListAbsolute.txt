@@ -1,0 +1,10 @@
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.csproj.AssemblyReference.cache
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.Properties.Resources.resources
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.csproj.GenerateResource.cache
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.csproj.CoreCompileInputs.cache
+C:\GitHub\24PM2\ProjetoPOO_Teste\bin\Debug\ProjetoPOO_Teste.exe.config
+C:\GitHub\24PM2\ProjetoPOO_Teste\bin\Debug\ProjetoPOO_Teste.exe
+C:\GitHub\24PM2\ProjetoPOO_Teste\bin\Debug\ProjetoPOO_Teste.pdb
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.Form1.resources
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.exe
+C:\GitHub\24PM2\ProjetoPOO_Teste\obj\Debug\ProjetoPOO_Teste.pdb
